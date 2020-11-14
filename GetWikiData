@@ -1,1 +1,7 @@
 #this file will give back the first three sentences of the selected (user's input) wikipedia article.
+
+import wikipedia
+
+user_input = input ("Wikipedia keyword:")
+
+print(wikipedia.summary(user_input, sentences=3)
